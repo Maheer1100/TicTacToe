@@ -1,0 +1,63 @@
+/* TicTacToe.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .tic-tac-toe {
+    text-align: center;
+  }
+  
+  .board {
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  .board-row {
+    display: flex;
+  }
+  
+  .square {
+    width: 100px;
+    height: 100px;
+    font-size: 3rem;
+    background-color: #fff;
+    border: 2px solid #333;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
+  }
+  
+  .square:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .status {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .reset-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .reset-button:hover {
+    background-color: #0056b3;
+  }
+  
